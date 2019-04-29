@@ -1,6 +1,6 @@
 # Info for the schoreboard
 service_name: "speedrun-010"
-description: "TODO: add public description."
+description: "Baby Driver"
 tags:
   - pwn
 
@@ -8,7 +8,7 @@ violates_flag_format: false # if this is not "true", the flag is verfied against
 
 allow_egress: False
 
-flag: "TODO: add flag" # this is the flag of the service
+flag: "OOO{Yeah, he's loony. He just like his toons. Aren't W#_____411???}" # this is the flag of the service
 
 # Type can be normal or king_of_the_hill
 type: normal
@@ -28,6 +28,7 @@ authors:
 # The paths are relative to the repository!
 public_files:
   - service/speedrun-010
+  - service/libc-2.27.so
 
 # Test scripts are heavily encouraged.
 # All scripts should exit 0 if nothing went wrong.
